@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff3366;
+    padding: 20px;
+    text-align: center;
+    color: rgb(2, 2, 2);
+}
+
+h1 {
+    margin: 0;
+}
+
+.contacts, .emergency, .meditation {
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-btn, .emergency-btn, .media-btn {
+    background-color: #ff3366;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-btn:hover, .emergency-btn:hover, .media-btn:hover {
+    background-color: #cc2f53;
+}
+
+.emergency-btn {
+    background-color: red;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff3366;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

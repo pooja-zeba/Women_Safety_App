@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheShield App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SheShield App</h1>
+    </header>
+
+    <div class="contacts">
+        <h2>Emergency Contacts</h2>
+        <button class="contact-btn" onclick="contactPolice()">Contact Police (100)</button>
+        <button class="contact-btn" onclick="contactHelpline()">Contact Women's Safety (181)</button>
+        <button class="contact-btn" onclick="addContacts()">Add Important Contacts</button>
+    </div>
+
+    <div class="emergency">
+        <button class="emergency-btn" id="emergency-btn" onclick="triggerEmergencyAlert()">Activate Emergency Alert</button>
+    </div>
+
+    <div class="meditation">
+        <h2>Meditation & Stress Relief</h2>
+        <button class="media-btn" onclick="playMeditationMusic()">Play Meditation Music</button>
+        <button class="media-btn" onclick="playMeditationVideo()">Play Meditation Video</button>
+    </div>
+
+    <footer>
+        <p>Women's Safety App © 2025</p>
+    </footer>
+
+    <script src="static/app.js"></script>
+</body>
+</html>
